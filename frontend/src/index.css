@@ -1,0 +1,10 @@
+body { font-family: sans-serif; background-color: #f4f4f4; color: #333; line-height: 1.6; }
+.container { max-width: 600px; margin: 2rem auto; padding: 1rem; background: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 8px; }
+h1 { text-align: center; }
+.todo-item { display: flex; align-items: center; justify-content: space-between; padding: 0.5rem; border-bottom: 1px solid #eee; }
+.todo-item.completed span { text-decoration: line-through; color: #aaa; }
+.todo-item input[type='checkbox'] { margin-right: 1rem; }
+.todo-item button { background: #ff4d4d; color: #fff; border: none; padding: 5px 9px; border-radius: 50%; cursor: pointer; font-size: 14px; }
+.add-form { display: flex; margin-top: 1rem; }
+.add-form input[type='text'] { flex: 1; padding: 0.5rem; border: 1px solid #ddd; border-radius: 4px; }
+.add-form button { padding: 0.5rem 1rem; border: none; background: #5cb85c; color: white; border-radius: 4px; margin-left: 0.5rem; cursor: pointer; }
